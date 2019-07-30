@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.bg{
+    min-width: 1200px;
+    min-height: 100%;
+
+    width: 100%;
+    height: auto;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+    filter: blur(4px);
+
+    @media screen and (max-width: 1200px)
+    {
+        .bg{
+            left: 50%;
+            margin-left: 600px;
+        }
+    }
+}
+
+h3,h4{
+    font-family: 'Indie Flower', bold;
+}
